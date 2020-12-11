@@ -1,0 +1,3 @@
+/home/iakmastro/Classes/DataStructure/lab01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/iakmastro/Classes/DataStructure/lab01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/iakmastro/Classes/DataStructure/lab01/cmake-build-debug/CMakeFiles/lab01.dir
