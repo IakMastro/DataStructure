@@ -64,16 +64,16 @@ RM = /var/lib/snapd/snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iakmastro/Classes/DataStructure/Queue
+CMAKE_SOURCE_DIR = /home/iakmastro/Classes/DataStructure/Tree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iakmastro/Classes/DataStructure/Queue/cmake-build-debug
+CMAKE_BINARY_DIR = /home/iakmastro/Classes/DataStructure/Tree/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Queue.dir/all
+all: CMakeFiles/Tree.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Queue.dir/clean
+clean: CMakeFiles/Tree.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Queue.dir
+# Target rules for target CMakeFiles/Tree.dir
 
 # All Build rule for target.
-CMakeFiles/Queue.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iakmastro/Classes/DataStructure/Queue/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Queue"
-.PHONY : CMakeFiles/Queue.dir/all
+CMakeFiles/Tree.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iakmastro/Classes/DataStructure/Tree/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Tree"
+.PHONY : CMakeFiles/Tree.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Queue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iakmastro/Classes/DataStructure/Queue/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Queue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iakmastro/Classes/DataStructure/Queue/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Queue.dir/rule
+CMakeFiles/Tree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iakmastro/Classes/DataStructure/Tree/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Tree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iakmastro/Classes/DataStructure/Tree/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Tree.dir/rule
 
 # Convenience name for target.
-Queue: CMakeFiles/Queue.dir/rule
+Tree: CMakeFiles/Tree.dir/rule
 
-.PHONY : Queue
+.PHONY : Tree
 
 # clean rule for target.
-CMakeFiles/Queue.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/clean
-.PHONY : CMakeFiles/Queue.dir/clean
+CMakeFiles/Tree.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/clean
+.PHONY : CMakeFiles/Tree.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
